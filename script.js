@@ -7,10 +7,10 @@ let btn = document.getElementsByTagName('button')[0];
 
 function info(event) {
 	event.preventDefault();
-	alert(`First Name: ${fname.value}`,
-		 `Last Name: ${lname.value}`,
-		 `Phone Number: ${phone.value}`,
-		 `Email ID: ${email.value}`);
+	alert(`First Name: ${fname.value}
+		 Last Name: ${lname.value}
+		 Phone Number: ${phone.value}
+		 Email ID: ${email.value}`);
 }
 
 btn.addEventListener('click',info);
